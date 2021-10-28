@@ -1,3 +1,15 @@
 {
-
+  "Bg":
+  {
+    "ProgressBarColor": "A2A2A264"
+  },
+  "Pb":
+  {
+    "ProgressBarColor": "A2A2A2C8"
+  },
+  "Tc":
+  {
+    "SegmentationPointColor": "000000FF",
+    "ForegroundTextColor": "000000FF"
+  }
 }

@@ -1,3 +1,13 @@
 {
-
+  "Bg":
+  {
+    "Width": 1920,
+    "Height": 1080,
+    "ProgressBarHeight": 50
+  },
+  "Vn":
+  {
+    "NodeWidth": 6,
+    "FontSize": 40
+  }
 }

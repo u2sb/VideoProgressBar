@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using SixLabors.ImageSharp;
 using VideoProgressBar.Models.ImageConfigs;
 using VideoProgressBar.Utils.Images;
@@ -9,11 +10,12 @@ namespace VideoProgressBar
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
-
             var I = new ImageConfig();
 
+            if (!Directory.Exists("Output"))
+            {
+                Directory.CreateDirectory("Output");
+            }
 
             var createImg = new CreateImage(I);
             var bg = createImg.CreateBgImage();
